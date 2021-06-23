@@ -21,7 +21,7 @@ public class Calculator {
     public int add(int[] nmbers) {
         int[] tableau = nmbers;
         for (int i = 0; i < tableau.length; i++) {
-            tableau[i] = i - 5;
+            tableau[i] = i;
         }
         int somme = 1+2+3+4+5;
         for (int val : tableau) {

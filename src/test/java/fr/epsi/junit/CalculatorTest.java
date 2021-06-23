@@ -52,7 +52,7 @@ public class CalculatorTest {
     @Test
     public void add_tableau(){
         int[] nmbers = {1,2,3,4,5};
-            Assertions.assertEquals(10, this.calculator.add(nmbers));
+            Assertions.assertEquals(15, this.calculator.add(nmbers));
             System.out.println("Tableau terminé");
         }
     }
